@@ -37,7 +37,7 @@ module.exports = {
         exclude: /node_modules/,
       }, {
         test: /\.(png|jpg|svg)$/,
-        loader: 'url-loader?limit=1048576'
+        loader: 'url-loader?limit=1'
       }
     ]
   }
